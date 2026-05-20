@@ -30,7 +30,8 @@ author:
   location         : # "Earth"
   employer         : "University of Colorado Boulder"
   uri              : # URL
-  email            : "violet.ross(at)colorado.edu" 
+  email            :
+  email_text       : "violet.ross(at)colorado.edu"
 
   # Academic websites
   academia         : # URL
