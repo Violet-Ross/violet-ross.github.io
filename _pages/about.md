@@ -6,4 +6,4 @@ redirect_from:
   - /about.html
 ---
 
-(currently under construction).
+(under construction)
