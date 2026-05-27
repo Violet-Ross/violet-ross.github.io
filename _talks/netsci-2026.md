@@ -1,5 +1,6 @@
 ---
 title: "Modeling Homophilic Hypergraph Growth Using Edge Copying"
+type: "Talk"
 permalink: /talks/netsci-26
 venue: "International School & Conference on Network Science"
 date: 2026-06-03
