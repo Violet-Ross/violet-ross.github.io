@@ -36,7 +36,11 @@ layout: default
           <p class="page__date"><strong>Date:</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></p>
         {% endif %}
         {% if page.talk_type %}<p>{{page.talk_type}} at {{ page.venue }},  {{page.location}} {% endif %}
-
+        {% if page.slides %}
+          <a href="{{ page.slides }}" target="_blank">
+            <img src="{{ page.slides_preview }}" alt="Slides preview" style="max-width: 300px; cursor: pointer;">
+          </a>
+        {% endif %}
         </header>
       {% endunless %}
 
