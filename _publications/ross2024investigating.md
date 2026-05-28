@@ -1,7 +1,7 @@
 ---
 title: "Investigating responses to US drone strikes in Yemen using Twitter data"
 collection: publications
-category: papers
+category: manuscripts
 permalink: /publication/ross2024investigating
 date: 2024-09-17
 venue: 'Media, War & Conflict'
