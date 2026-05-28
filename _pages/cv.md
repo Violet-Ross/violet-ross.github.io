@@ -9,4 +9,4 @@ redirect_from:
 
 {% include base_path %}
 
-(under construction)
+I have a [CV](/files/ross_cv.pdf)
