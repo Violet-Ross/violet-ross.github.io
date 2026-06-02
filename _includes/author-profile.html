@@ -20,6 +20,7 @@
     {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
     {% if author.location %}<p class="author__bio"><i class="fas fa-fw fa-location-dot icon-pad-right" aria-hidden="true"></i>{{ author.location }}</p>{% endif %}
     {% if author.employer %}<p class="author__bio"><i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>{{ author.employer }}</p>{% endif %}
+    {% if author.email_text %}<p class="author__bio"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>{{ author.email_text }}</p>{% endif %}
   </div>
 
   <div class="author__urls-wrapper">
@@ -27,9 +28,6 @@
       <!-- Font Awesome icons / Biographic information  -->
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
-      {% endif %}
-      {% if author.email_text %}
-        <li><span><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> {{ author.email_text }}</span></li>
       {% endif %}
 
       <!-- Font Awesome and Academicons icons / Academic websites -->
