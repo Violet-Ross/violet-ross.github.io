@@ -12,4 +12,5 @@ I'm a PhD student in Computer Science advised by [Dr. Daniel Larremore](https://
 
 
 ## News
+- **July 19 2026**: Check out my new preprint in collaboration with Phil Chodrow and Francis Cataldo: [Growing Hypergraphs with Homophily](https://arxiv.org/abs/2607.16046)!
 - **June 2026**: I was awarded Best Student Talk at the International School & Conference on Network Science!
